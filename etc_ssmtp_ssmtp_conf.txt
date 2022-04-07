@@ -1,0 +1,6 @@
+UseSTARTTLS=YES
+FromLineOverride=YES
+root=postmaster
+mailhub=smtp.gmail.com:587
+AuthUser=***@gmail.com
+AuthPass=***

@@ -1,0 +1,9 @@
+---
+  job1:
+    script: 
+      - sudo cp $CI_PROJECT_DIR/index.html /tmp/pr11/html
+      - sudo cp $CI_PROJECT_DIR/script.sh /tmp/pr11
+      - sudo sh /tmp/pr11/script.sh
+    rules:
+      - changes:
+          - index.html
